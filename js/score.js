@@ -1,9 +1,9 @@
-import { animate, scrambleText } from "animejs";
+import { animate, scrambleText } from "https://cdn.jsdelivr.net/npm/animejs@4/+esm";
 
 export function initScoreAnim() {
   var btn = document.querySelector(".primary-button");
   var scoreEl = document.querySelector("[data-score]");
-  if (!btn || !scoreEl) return;
+  if (!btn || !scoreEl) return;1
 
   btn.addEventListener("click", function () {
     animate(scoreEl, {
