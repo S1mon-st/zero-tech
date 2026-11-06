@@ -9,9 +9,6 @@ out/
 build/
 dist/
 
-# editor
-.vscode/*
-!.vscode/extensions.json
 
 # misc
 .DS_Store
